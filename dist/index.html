@@ -1,0 +1,90 @@
+<!doctype html>
+<html lang="ro">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Karisma Beauty Studio</title>
+  <style>
+    @keyframes slide-in-fwd-center {
+      0% {
+        transform: translateZ(-1400px) scale(0.5);
+        opacity: 0;
+      }
+
+      100% {
+        transform: translateZ(0) scale(1);
+        opacity: 1;
+      }
+    }
+
+    .background-image {
+      background-image: url(/assets/imagine.1-B5Kz3_lI.jpg);
+      background-size: cover;
+      background-position: center;
+      height: 550px;
+      width: 100vw;
+      position: relative;
+      animation: slide-in-fwd-center 1s;
+    }
+  </style>
+  <script type="module" crossorigin src="/assets/index-Hk3FbGHI.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/index-VbVdsqbL.css">
+</head>
+
+<body class="bg-gray-100">
+
+
+  <!-- Bara de sus cu logo -->
+  <div class="w-full h-12 bg-pink-200 flex justify-between items-center 8rem text-pink-500">
+    <div class="w-20">
+      <img src="/assets/imagine2-BmpqS_KU.png">
+    </div>
+   <p>Nr. 0748.222.908</p>
+  </div>
+
+  <!-- imaginea -->
+  <div class="background-image">
+
+    <!-- mesaj -->
+    <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center space-y-6 text-white">
+
+      <!-- Mesaj din centru -->
+      <div class="text-center">
+        <p class="text-2xl sm:text-4xl md:text-5xl lg:text-5xl font-bold">Bine ați venit!</p>
+        <p class="text-2xl sm:text-4xl md:text-5xl lg:text-5xl font-bold">Karisma Beauty Studio</p>
+        <p>Primul salon specializat pe extensii de gene din Pitești</p>
+      </div>
+
+      <!-- Butoane -->
+      <div class="flex flex-col sm:flex-row space-y-4 sm:space-y-0 sm:space-x-4">
+        <button class="bg-gray-300 bg-opacity-70 hover:bg-pink-200 text-black p-2 rounded-md shadow-md" ><a href="http://localhost:5173/contact">Contact</a></button>
+        <button class="bg-gray-300 bg-opacity-70 hover:bg-pink-200 text-black p-2 rounded-md shadow-md"><a href="http://localhost:5173/preturi">Prețuri</a></button>
+        <button class="bg-gray-300 bg-opacity-70 hover:bg-pink-200 text-black p-2 rounded-md shadow-md"><a href="http://localhost:5173/servicii">Servicii</a></button>
+        <button class="bg-gray-300 bg-opacity-70 hover:bg-pink-200 text-black p-2 rounded-md shadow-md"><a href="http://localhost:5173/noi">Despre Noi</a></button>
+        <button class="bg-gray-300 bg-opacity-70 hover:bg-pink-200 text-black p-2 rounded-md shadow-md"><a href="http://localhost:5173/oferte">Oferte</a></button>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bara de jos -->
+  <div class="w-full h-12 bg-pink-200"></div>
+
+  <!-- Secțiunea Programului -->
+  <div class="text-center mt-6">
+    <h2 class="text-xl font-semibold">Program de lucru</h2>
+    <div class="mt-2">
+      <p class="p-2">Luni-Vineri: <span class="underline decoration-pink-300">08:00</span> - 20:00</p>
+      <p class="p-2">Sâmbătă: <span class="underline decoration-pink-300">08:00</span> - 16:00</p>
+      <p class="p-2">Duminică: <span class="underline decoration-pink-300">Închis</span></p>
+    </div>
+  </div>
+
+  <!-- Bara jos gri -->
+  <div class="w-full h-8 bg-gray-300 text-center pt-1 text-white">
+    <p><i class="bi bi-c-circle"></i> 2024</p>
+  </div>
+
+</body>
+
+</html>
