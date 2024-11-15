@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Despre noi</title>
+    <style>
+        /* Puff-in animation */
+        @keyframes puff-in-center {
+            0% {
+                transform: scale(2);
+                filter: blur(4px);
+                opacity: 0;
+            }
+            100% {
+                transform: scale(1);
+                filter: blur(0);
+                opacity: 1;
+            }
+        }
+
+        .puff-in-center {
+            animation: puff-in-center 0.7s cubic-bezier(0.47, 0, 0.745, 0.715) both;
+        }
+    </style>
+</head>
+
+<body class="bg-white flex justify-center items-center min-h-screen">
+
+    <script type="module" src="main.js"></script>
+
+    <div class="max-w-4xl p-6 bg-pink-100 rounded-lg shadow-md">
+
+        <div class="flex flex-col md:flex-row items-center mb-6">
+            <div class="md:w-1/2">
+                <a href="http://localhost:5173" class="font-semibold text-pink-500">home</a>
+                <!-- Imaginea cu animație -->
+                <img src="imagini/imagine6.jpg" class="rounded-lg w-full puff-in-center">
+            </div>
+            <div class="md:w-1/2 md:pl-6 mt-4 md:mt-0">
+                <h1 class="text-2xl text-center font-bold mb-4">Despre Noi</h1>
+
+                <p class="text-gray-700 p-2">In urma cu 6 ani, in toamna anului 2014, doua tinere îndrăznețe au pus
+                    bazele unui mic salon se înfrumusețare ,un studio pentru coafor, extensii de gene, situat in punctul
+                    central al orașului.</p>
+
+                <p class="text-gray-700 p-2">Nu după mult timp , drumurile lor s-au separat , iar salonul Karisma a
+                    devenit așa cum multe dintre voi îl cunoasteti astăzi, un salon specializat pe extensii de gene.
+                    Extensiile de gene au luat rapid amploare. Cererea clientelor era destul de mare, iar Cerasela,
+                    fondatoarea salonului, a instruit și format o echipa de lash stiliști care lucrează cu tehnica
+                    personalizata de ea.</p>
+
+                <p class="text-gray-700 p-2">Salonul a devenit foarte popular, drept dovada, persoanele de toate
+                    vârstele și categoriile sociale ne-au trecut pragul.</p>
+
+                <p class="text-gray-700 p-2">In vara anului 2018 , am decis sa extindem gama de servicii, și am format o
+                    echipa noua ,unind forțele mai multor specialiști cu experienta in domeniul Beauty.
+                    Noua locație are un design modern și pe lângă bine cunoscutele extensii de gene, o gama larga de
+                    servicii: Cosmetica, Epilare definitva, Manichiura-pedichiura, coafor și make-up profesional.</p>
+
+                <p class="text-gray-700 p-2">Astăzi salonul este unul recunoscut pentru calitatea serviciilor oferite și
+                    experiența specialiștilor nostri.</p>
+            </div>
+        </div>
+        <div class="bg-white p-2 rounded-lg shadow-inner text-center">
+            <p class="text-gray-600 italic">Oameni atât de calzi și primitori, oameni care iubesc ceea ce fac</p>
+            <p class="text-gray-600 italic p-2">Dinu Giorgiana</p>
+        </div>
+    </div>
+</body>
+
+</html>

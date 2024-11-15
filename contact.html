@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>contact</title>
+    <style>
+        @keyframes slide-in-fwd-center {
+            0% {
+                transform: translateZ(-1400px) scale(0.5);
+                opacity: 0;
+            }
+
+            100% {
+                transform: translateZ(0) scale(1);
+                opacity: 1;
+            }
+        }
+
+        .background-image {
+            background-image: url(imagini/imagine.1.jpg);
+            background-size: cover;
+            background-position: center;
+            height: 550px;
+            width: 100vw;
+            position: relative;
+            animation: slide-in-fwd-center 1s;
+        }
+    </style>
+</head>
+
+<body>
+    <script type="module" src="main.js"></script>
+    <!-- Bara de sus -->
+    <div class="w-full h-12 bg-pink-200 flex items-center px-4 text-pink-500 justify-between">
+
+        <div class="flex items-center space-x-2">
+            <i class="bi bi-geo-fill text-2xl"></i>
+            <div class="flex flex-col">
+              <p class="font-semibold leading-none">Nicolae Dobrin</p>
+              <p class="text-sm leading-none">Pitești</p>
+            </div>
+          </div>
+
+          <div class="flex items-center space-x-2">
+            <i class="bi bi-geo-fill text-2xl"></i>
+            <div class="flex flex-col">
+              <p class="font-semibold leading-none">Nicolae Dobrin</p>
+              <p class="text-sm leading-none">Pitești</p>
+            </div>
+          </div>
+
+        <div class="flex-1 text-center">
+          <a href="http://localhost:5173" class="font-semibold text-pink-500">home</a>
+        </div>
+
+        <div class="flex flex-col items-center space-y-2 md:flex-row md:space-y-0 md:space-x-4">
+          <a href="https://www.instagram.com/karisma_studio?igsh=cndiMHhwdmEzbXE5" class="font-semibold">Instagram <i class="bi bi-instagram hidden md:inline"></i></a>
+          <a href="https://www.facebook.com/karismabeautystudio" class="font-semibold">Facebook <i class="bi bi-facebook hidden md:inline"></i></a>
+        </div>
+      </div>
+      
+
+    <!-- imaginea -->
+    <div class="background-image">
+
+        <!-- mesaj -->
+        <div
+            class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center space-y-6 text-white">
+
+            <div class="text-3xl">
+                <a href="https://wa.me/40748222908" target="_blank"
+                   class="bg-pink-100 bg-opacity-70 hover:bg-pink-200 text-black p-2 rounded-md shadow-md">
+                    Programează-te
+                </a>
+            </div>
+        </div>
+    </div>
+    <!-- Bara de jos -->
+    <div class="w-full h-12 bg-pink-200"></div>
+
+    <div>
+        <button class="bg-pink-100 bg-opacity-70 hover:bg-pink-200 text-black p-2 rounded-md shadow-md mt-5"><a href="http://localhost:5173/parere">Spuneți părerea</a></button>
+    </div>
+
+</body>
+
+</html>
