@@ -4,7 +4,25 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Servicii și Prețuri</title>
+    <title>Karisma Beauty Studio Pitesti - Preturi</title>
+    <meta name="description"
+        content="Karisma Beauty Studio Pitesti. Salon Specializat pe Extensii de Gene. Preturi." />
+    <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" />
+    <link rel="canonical" href="https://karisma.ro/" />
+    <meta property="og:locale" content="ro_RO" />
+    <meta property="og:type" content="website" />
+    <meta property="og:title" content="Karisma Beauty Studio Pitesti - Preturi" />
+    <meta property="og:description"
+        content="Karisma Beauty Studio Pitesti. Salon Specializat pe Extensii de Gene. Preturi." />
+    <meta property="og:url" content="https://karisma.ro/" />
+    <meta property="og:site_name" content="Salon Extensii Gene Pitesti. Preturi." />
+    <meta property="article:modified_time" content="2025-01-12T10:29:47+00:00" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:label1" content="Scris de">
+    <meta name="twitter:data1" content="admin">
+    <meta name="twitter:label2" content="Timp estimat pentru citire">
+    <meta name="twitter:data2" content="2 minute">
+    <script src="https://cdn.tailwindcss.com"></script>
 </head>
 
 <body class="bg-pink-100">
@@ -19,218 +37,778 @@
                 <a href="index.html" class="font-semibold text-pink-500">home</a>
             </div>
 
-            <h1 class="text-center text-2xl font-bold text-pink-500 mb-6">Prețuri</h1>
+            <h1 class="text-center text-2xl font-bold text-pink-black mb-6">Prețuri</h1>
 
-            <div class="grid grid-cols-1 md:grid-cols-3 gap-6">
+            <div class="grid grid-cols-1 md:grid-cols-2 gap-6">
                 <!-- Prima coloană -->
                 <div class="space-y-4">
-                    <h2 class="text-xl font-bold text-pink-500">Extensii Gene</h2>
 
-                    <!-- Extensii 1D - 2D -->
-                    <p><strong>Extensii 1D - 2D</strong></p>
-                    <p>Aplicare: 230 lei - 2h</p>
-                    <p>Întreținere: 180 lei - 2h</p>
-                    <p>Efect: Natural</p>
-                    <!-- Extensii 3D - 4D -->
-                    <p><strong>Extensii 3D - 4D</strong></p>
-                    <p>Aplicare: 260 lei - 150 min</p>
-                    <p>Întreținere: 190 lei - 150 min</p>
-                    <p>Efect: Volum mediu și conturare intensă</p>
-                    <!-- Soft Volume -->
-                    <p><strong>Soft Volume</strong></p>
-                    <p>Aplicare: 280 lei - 150 min</p>
-                    <p>Întreținere: 210 lei - 150 min</p>
-                    <p>Efect: Volum 5-8D, gene pigmentate</p>
-                    <!-- Mega Volume -->
-                    <p><strong>Mega Volume</strong></p>
-                    <p>Aplicare: 300 lei - 150 min</p>
-                    <p>Întreținere: 230 lei - 150 min</p>
-                    <p>Efect: Conturare intensă</p>
-                    <!-- Hybrid -->
-                    <p><strong>Hybrid</strong></p>
-                    <p>Aplicare: 250 lei - 2h</p>
-                    <p>Întreținere: 150 lei - 1h</p>
-                    <p>Efect: Laminare gene + set parțial extensii de gene</p>
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Extensii de Gene</h2>
 
-                    <!-- efecte speciale!!! -->
-                    <h2 class="text-xl font-bold text-pink-500">Extensii Gene Efecte Speciale</h2>
-                    <p><strong>Mascara Effect</strong></p>
-                    <p>Aplicare: 230 lei - 2h</p>
-                    <p>Întreținere: 180 lei - 2h</p>
-                    <p>Efect: Natural de gene rimelate</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="extensii-1d-2d">
+                            Extensii 1D - 2D
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="extensii-1d-2d">
+                        <p>Aplicare: 230 lei - 2h</p>
+                        <p>Întreținere: 180 lei - 2h</p>
+                        <p>Efect: Natural</p>
+                    </div>
 
-                    <p><strong>Wet look</strong></p>
-                    <p>Aplicare: 260 lei - 2h și 30 min</p>
-                    <p>Întreținere: 190 lei - 2h și 30 min</p>
-                    <p>Efect: Intens de gene umede</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="extensii-3d-4d">
+                            Extensii 3D - 4D
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="extensii-3d-4d">
+                        <p>Aplicare: 260 lei - 150 min</p>
+                        <p>Întreținere: 190 lei - 150 min</p>
+                        <p>Efect: Volum mediu și conturare intensă</p>
+                    </div>
 
-                    <p><strong>Soft Foxy</strong></p>
-                    <p>Aplicare: 250 lei - 2h și 30 min</p>
-                    <p>Întreținere: 200 lei - 2h și 30 min</p>
-                    <p>Efect: Special de alungire și lifting</p>
-                    <p>Volum natural</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="soft-volume">
+                            Soft Volume
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="soft-volume">
+                        <p>Aplicare: 280 lei - 150 min</p>
+                        <p>Întreținere: 210 lei - 150 min</p>
+                        <p>Efect: Volum 5-8D, gene pigmentate</p>
+                    </div>
 
-                    <p><strong>Volume Foxy</strong></p>
-                    <p>Aplicare: 290 lei - 2h și 30 min</p>
-                    <p>Întreținere: 220 lei - 2h și 30 min</p>
-                    <p>Efect: Special de alungire și lifting</p>
-                    <p>Volum intens</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="mega-volume">
+                            Mega Volume
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="mega-volume">
+                        <p>Aplicare: 300 lei - 150 min</p>
+                        <p>Întreținere: 230 lei - 150 min</p>
+                        <p>Efect: Conturare intensă</p>
+                    </div>
 
-                    <p><strong>Soft Wispy</strong></p>
-                    <p>Aplicare: 250 lei - 2h și 30 min</p>
-                    <p>Întreținere: 200 lei - 2h și 30 min</p>
-                    <p>Efect: Vârfuri întrerupte/ aplicare raze</p>
-                    <p>Volum natural</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="hybrid">
+                            Hybrid
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="hybrid">
+                        <p>Aplicare: 250 lei - 2h</p>
+                        <p>Întreținere: 150 lei - 1h</p>
+                        <p>Efect: Laminare gene + set parțial extensii de gene</p>
+                    </div>
 
-                    <p><strong>Volume Wispy</strong></p>
-                    <p>Aplicare: 290 lei - 2h și 30 min</p>
-                    <p>Întreținere: 220 lei - 2h și 30 min</p>
-                    <p>Efect: Vârfuri întrerupte/ aplicare raze</p>
-                    <p>Volum intens</p>
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Extensii Gene Efecte Speciale</h2>
 
-                    <!-- Extensii Gene Servicii Aditionale -->
-                    <h2 class="text-xl font-bold text-pink-500">Extensii Gene Servicii Aditionale</h2>
-                    <p><strong>Extensii color</strong> + 30 lei</p>
-                    <p>Inserție gene colorate, full set color, dark brown, ombré</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Mascara-Effect">
+                            Mascara Effect
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Mascara-Effect">
+                        <p>Aplicare: 230 lei - 2h</p>
+                        <p>Întreținere: 180 lei - 2h</p>
+                        <p>Efect: Natural de gene rimelate</p>
+                    </div>
 
-                    <p><strong>Dark Illusion</strong> + 30 lei</p>
-                    <p>Gene cu structură specială, care reflectă un volum mai mare decât cel real</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Wet-look">
+                            Wet look
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Wet-look">
+                        <p>Aplicare: 260 lei - 2h și 30 min</p>
+                        <p>Întreținere: 190 lei - 2h și 30 min</p>
+                        <p>Efect: Intens de gene umede</p>
+                    </div>
 
-                    <p><strong>Extra întreținere</strong> + 40 lei</p>
-                    <p>4-5 săptămâni</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Soft-Foxy">
+                            Soft Foxy
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Soft-Foxy">
+                        <p>Aplicare: 250 lei - 2h și 30 min</p>
+                        <p>Întreținere: 200 lei - 2h și 30 min</p>
+                        <p>Efect: Special de alungire și lifting</p>
+                        <p>Volum natural</p>
+                    </div>
 
-                    <p><strong>Îndepărtare extensii</strong> 50 lei - 30 min</p>
-                    <p>4-5 săptămâni</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Volume-Foxy">
+                            Volume Foxy
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Volume-Foxy">
+                        <p>Aplicare: 290 lei - 2h și 30 min</p>
+                        <p>Întreținere: 220 lei - 2h și 30 min</p>
+                        <p>Efect: Special de alungire și lifting</p>
+                        <p>Volum intens</p>
+                    </div>
 
-                    <p><strong>Îndepărtare extensii în vederea reaplicării în salon</strong> GRATUIT - 30 min</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Soft-Wispy">
+                            Soft Wispy
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Soft-Wispy">
+                        <p>Aplicare: 250 lei - 2h și 30 min</p>
+                        <p>Întreținere: 200 lei - 2h și 30 min</p>
+                        <p>Efect: Vârfuri întrerupte/ aplicare raze</p>
+                        <p>Volum natural</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Volume-Wispy">
+                            Volume Wispy
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Volume-Wispy">
+                        <p>Aplicare: 290 lei - 2h și 30 min</p>
+                        <p>Întreținere: 220 lei - 2h și 30 min</p>
+                        <p>Efect: Vârfuri întrerupte/ aplicare raze</p>
+                        <p>Volum intens</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Extensii Gene Servicii Aditionale</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Extensii-color">
+                            Extensii color
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Extensii-color">
+                        <p>+ 30 lei</p>
+                        <p>Inserție gene colorate, full set color, dark brown, ombré</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Dark-Illusion">
+                            Dark Illusion
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Dark-Illusion">
+                        <p>+ 30 lei</p>
+                        <p>Gene cu structură specială, care reflectă un volum mai mare decât cel real</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Extra-întreținere">
+                            Extra întreținere
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Extra-întreținere">
+                        <p>+ 40 lei</p>
+                        <p>4-5 săptămâni</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Îndepărtare-extensii">
+                            Îndepărtare extensii
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Îndepărtare-extensii">
+                        <p>50 lei - 30 min</p>
+                        <p>4-5 săptămâni</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Îndepărtare extensii în vederea reaplicării în salon">
+                            Îndepărtare extensii în vederea reaplicării în salon
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Îndepărtare extensii în vederea reaplicării în salon">
+                        <p>GRATUIT - 30 min</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Epilare Definitivă Femei</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Picioare total">
+                            Picioare total
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Picioare total">
+                        <p>280 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Picioare 1/2">
+                            Picioare 1/2
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Picioare 1/2">
+                        <p>180 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Brațe total">
+                            Brațe total
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Brațe total">
+                        <p>150 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Brațe 1/2">
+                            Brațe 1/2
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Brațe 1/2">
+                        <p>100 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Axilă femei">
+                            Axilă femei
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Axilă femei">
+                        <p>85 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Inghinal + Interfesier">
+                            Inghinal + Interfesier
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Inghinal + Interfesier">
+                        <p>140 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Pachet 8 ședințe (Inghinal + Interfesier + Axilă)">
+                            Pachet 8 ședințe (Inghinal + Interfesier + Axilă)
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Pachet 8 ședințe (Inghinal + Interfesier + Axilă)">
+                        <p>1290 lei</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Epilare Definitivă Femei(Facial)</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Mustată">
+                            Mustată
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Mustată">
+                        <p>50 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Mustată + Barbă">
+                            Mustată + Barbă
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Mustată + Barbă">
+                        <p>85 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Toată fața">
+                            Toată fața
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Toată fața">
+                        <p>140 lei / ședință</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Epilare Definitivă Bărbați</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Mustată, frunte, între sprâncene">
+                            Mustată, frunte, între sprâncene
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Mustată, frunte, între sprâncene">
+                        <p>50 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Temple, perciuni, bărbie, pomeți">
+                            Temple, perciuni, bărbie, pomeți
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Temple, perciuni, bărbie, pomeți">
+                        <p>50 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Degete, laba piciorului">
+                            Degete, laba piciorului
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Degete, laba piciorului">
+                        <p>50 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Gât">
+                            Gât
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Gât">
+                        <p>80 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Axilă">
+                            Axilă
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Axilă">
+                        <p>100 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Ambomen">
+                            Ambomen
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Ambomen">
+                        <p>100 lei / ședință</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Pectorali">
+                            Pectorali
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Pectorali">
+                        <p>100 lei / ședință</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Laminare</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Laminare gene">
+                            Laminare gene
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Laminare gene">
+                        <p>150 lei - 60 min</p>
+                        <p>Lifting de gene + vopsit + vitaminizare</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Laminare sprâncene">
+                            Laminare sprâncene
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Laminare sprâncene">
+                        <p>150 lei - 60 min</p>
+                        <p>Laminare + stilizare + vopsit + vitaminizare</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Make-Up</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Make-up profesional">
+                            Make-up profesional
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Make-up profesional">
+                        <p>250 lei - 90 min</p>
+                        <p>Include gene false bandă/smocuri</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Make-up mireasă">
+                            Make-up mireasă
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Make-up mireasă">
+                        <p>300 lei - 90 min</p>
+                        <p>Include gene false bandă/smocuri</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Vopsit</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Vopsit Nashi/Ikonic">
+                            Vopsit Nashi/Ikonic
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Vopsit Nashi/Ikonic">
+                        <p>30 ml: 100 lei</p>
+                        <p>60 ml: 190 lei</p>
+                        <p>90 ml: 240 lei</p>
+                        <p>120 ml: 290 lei</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Decolorat</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Decolorat">
+                            Decolorat
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Decolorat">
+                        <p>30 g: 60 lei</p>
+                        <p>60 g: 70 lei</p>
+                        <p>90 g: 110 lei</p>
+                        <p>120 g: 130 lei</p>
+                    </div>
                 </div>
-
-                <!-- a doua coloana -->
                 <div class="space-y-4">
-                    <!-- Epilare Definitivă Femei -->
-                    <h2 class="text-xl font-bold text-pink-500">Epilare Definitivă Femei</h2>
-                    <p><strong>Picioare total:</strong> 280 lei / ședință</p>
-                    <p><strong>Picioare 1/2:</strong> 180 lei / ședință</p>
-                    <p><strong>Brațe total:</strong> 150 lei / ședință</p>
-                    <p><strong>Brațe 1/2:</strong> 100 lei / ședință</p>
-                    <p><strong>Axilă:</strong> 85 lei / ședință</p>
-                    <p><strong>Inghinal + Interfesier:</strong> 140 lei / ședință</p>
-                    <p><strong>Pachet 8 ședințe (Inghinal + Interfesier + Axilă):</strong> 1290 lei</p>
 
-                    <!-- Epilare Definitivă Femei (Facial) -->
-                    <h2 class="text-xl font-bold text-pink-500">Epilare Definitivă Femei (Facial)</h2>
-                    <p><strong>Mustată:</strong> 50 lei / ședință</p>
-                    <p><strong>Mustată + Barbă:</strong> 85 lei / ședință</p>
-                    <p><strong>Toată fața:</strong> 140 lei / ședință</p>
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Coafat</h2>
 
-                    <!-- Epilare Definitivă Bărbați -->
-                    <h2 class="text-xl font-bold text-pink-500">Epilare Definitivă Bărbați</h2>
-                    <p><strong>Mustată, frunte, între sprâncene:</strong> 50 lei / ședință</p>
-                    <p><strong>Temple, perciuni, bărbie, pomeți:</strong> 50 lei / ședință</p>
-                    <p><strong>Degete, laba piciorului:</strong> 50 lei / ședință</p>
-                    <p><strong>Gât:</strong> 80 lei / ședință</p>
-                    <p><strong>Axilă:</strong> 100 lei / ședință</p>
-                    <p><strong>Ambomen:</strong> 100 lei / ședință</p>
-                    <p><strong>Pectorali:</strong> 100 lei / ședință</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Spălat + Coafat">
+                            Spălat + Coafat
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Spălat + Coafat">
+                        <p>90 lei - 50 min</p>
+                        <p>(perie, placă, waves)</p>
+                    </div>
 
-                    <!-- laminare -->
-                    <h2 class="text-xl font-bold text-pink-500">Laminare</h2>
-                    <p><strong>Laminare gene:</strong> 150 lei - 60 min</p>
-                    <p>Lifting de gene + vopsit + vitaminizare</p>
-                    <p><strong>Laminare sprâncene:</strong> 150 lei - 60 min</p>
-                    <p>Laminare + stilizare + vopsit + vitaminizare</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Abonament Spălat + Coafat">
+                            Abonament Spălat + Coafat
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Abonament Spălat + Coafat">
+                        <p>400 lei</p>
+                        <p>(5 ședințe)</p>
+                    </div>
 
-                    <!-- make up -->
-                    <h2 class="text-xl font-bold text-pink-500">Make-Up</h2>
-                    <p><strong>Make-up profesional:</strong> 250 lei - 90 min</p>
-                    <p>Include gene false bandă/smocuri</p>
-                    <p><strong>Make-up mireasă:</strong> 300 lei - 90 min</p>
-                    <p>Include gene false bandă/smocuri</p>
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Coafat Special</h2>
 
-                    <!-- vopsit & decolorat -->
-                    <h2 class="text-xl font-bold text-pink-500">Vopsit</h2>
-                    <h3 class="font-semibold mt-2">Vopsit Nashi/Ikonic:</h3>
-                    <p><strong>30 ml:</strong> 100 lei</p>
-                    <p><strong>60 ml:</strong> 190 lei</p>
-                    <p><strong>90 ml:</strong> 240 lei</p>
-                    <p><strong>120 ml:</strong> 290 lei</p>
-                    <h2 class="text-xl font-bold text-pink-500">Decolorat</h2>
-                    <p><strong>30 g:</strong> 60 lei</p>
-                    <p><strong>60 g:</strong> 70 lei</p>
-                    <p><strong>90 g:</strong> 110 lei</p>
-                    <p><strong>120 g:</strong> 130 lei</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Coafat bucle/waves">
+                            Coafat bucle/waves
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Coafat bucle/waves">
+                        <p>150-200 lei - 60 min</p>
+                        <p>Păr mediu/lung</p>
+                    </div>
 
-                    <!-- coafat & coafat special -->
-                    <h2 class="text-xl font-bold text-pink-500">Coafat</h2>
-                    <p><strong>Spălat + Coafat:</strong> 90 lei - 50 min</p>
-                    <p>(perie, placă, waves)</p>
-                    <p><strong>Abonament Spălat + Coafat:</strong> 400 lei</p>
-                    <p>(5 ședințe)</p>
-                    <h2 class="text-xl font-bold text-pink-500">Coafat Special</h2>
-                    <p><strong>Coafat bucle/waves:</strong> 150-200 lei - 60 min</p>
-                    <p>Păr mediu/lung</p>
-                    <p><strong>Coafat tehnici speciale:</strong> 250 lei</p>
-                    <p>(retro, coc, wet look, împletit, include spălat)</p>
-                </div>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Coafat tehnici speciale">
+                            Coafat tehnici speciale
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Coafat tehnici speciale">
+                        <p>250 lei</p>
+                        <p>(retro, coc, wet look, împletit, include spălat)</p>
+                    </div>
 
-                <!-- a treia coloana -->
-                <div class="space-y-4">
-                    <!-- cosmetica -->
-                    <h2 class="text-xl font-bold text-pink-500">Cosmetică</h2>
-                    <p><strong>Epilat lung:</strong> 60 lei - 30 min</p>
-                    <p><strong>Epilat scurt:</strong> 40 lei - 20 min</p>
-                    <p><strong>Inghinal total:</strong> 40 lei - 30 min</p>
-                    <p><strong>Inghinal parțial:</strong> 30 lei - 30 min</p>
-                    <p><strong>Mustată/Barbă/Perciuni:</strong> 10 lei - 10 min</p>
-                    <p><strong>Brațe:</strong> 35 lei - 15 min</p>
-                    <p><strong>Axilă:</strong> 20 lei - 10 min</p>
-                    <h2 class="text-xl font-bold text-pink-500">Cosmetică</h2>
-                    <p><strong>Pensat formă:</strong> 50 lei - 30 min</p>
-                    <p><strong>Pensat curățare:</strong> 40 lei - 30 min</p>
-                    <p><strong>Vopsit gene:</strong> 20 lei - 10 min</p>
-                    <p><strong>Vopsit sprâncene:</strong> 20 lei - 10 min</p>
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Cosmetică</h2>
 
-                    <!-- masaj -->
-                    <h2 class="text-xl font-bold text-pink-500">Masaj</h2>
-                    <p><strong>Masaj terapeutic parțial:</strong> 90 lei - 30 min</p>
-                    <p><strong>Masaj relaxare:</strong> 100 lei - 50 min</p>
-                    <p><strong>Masaj anticelulitic:</strong> 120 lei - 40 min</p>
-                    <p><strong>Masaj facial & capilar:</strong> 60 lei - 30 min</p>
-                    <h2 class="text-xl font-bold text-pink-500">Abonamente Masaj</h2>
-                    <p><strong>10 ședințe masaj terapeutic:</strong> 820 lei</p>
-                    <p><strong>10 ședințe masaj anticelulitic:</strong> 1080 lei</p>
-                    <p><strong>10 ședințe masaj relaxare:</strong> 920 lei</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Epilat lung">
+                            Epilat lung
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Epilat lung">
+                        <p>60 lei - 30 min</p>
+                    </div>
 
-                    <!-- t faceiale -->
-                    <h2 class="text-xl font-bold text-pink-500">Tratamente Faciale</h2>
-                    <p><strong>Clasic de curățare:</strong> 190 lei - 90 min</p>
-                    <p><strong>OxyGenera de bază:</strong> 200 lei - 60 min</p>
-                    <p><strong>OxyGenera complet:</strong> 280 lei - 90 min</p>
-                    <p><strong>Anti-Aging OxyGenera:</strong> De la 300 lei - 120 min</p>
-                    <p><strong>OxyGenera (3 terapii):</strong> 240 lei - 75 min</p>
-                    <p><strong>Masaj facial:</strong> 140 lei - 45 min</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Epilat scurt">
+                            Epilat scurt
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Epilat scurt">
+                        <p>40 lei - 20 min</p>
+                    </div>
 
-                    <!-- t par -->
-                    <h2 class="text-xl font-bold text-pink-500">Tratamente Păr & Scalp</h2>
-                    <p><strong>Tratament restructurant Nashi Filler Therapy:</strong> 150 lei - 2h</p>
-                    <p>Restructurează fibra capilară în 3 pași: hidratează, repară și compactează</p>
-                    <p><strong>Tratament laminare Milkshake Insta Light:</strong> 180 lei - 2h</p>
-                    <p>Îmbracă părul într-o peliculă proctectoare și îi oferă efect de oglindă</p>
-                    <p><strong>Tratament hidratare Morphosis Ultimate Care:</strong> 200 lei - 2h</p>
-                    <p>Hidratează intensiv, disciplinează părul și oferă efect de glosare, pentru redarea strălucirii.
-                        Potrivit pentru părul tern și lipsit de vitalitate</p>
-                    <h2 class="text-xl font-bold text-pink-500">Pachete Tratament</h2>
-                    <p><strong>Pachet Nashi Filler + Ikonic Lucera + Tuns & Coafat:</strong> 220 lei - 2h 30 min</p>
-                    <p><strong>Pachet laminare Milkshake + Tuns & Coafat:</strong> 270 lei - 2h 30 min</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Inghinal total">
+                            Inghinal total
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Inghinal total">
+                        <p>40 lei - 30 min</p>
+                    </div>
 
-                    <!-- vopsit ba -->
-                    <h2 class="text-xl font-bold text-pink-500">Vopsit Balayage</h2>
-                    <p><strong>Vopsit rădăcină 1 tub:</strong> 300 lei</p>
-                    <p>Include consultanță, manoperă, spălat, masaj</p>
-                    <p>Adaos 50 lei pentru fiecare tub în plus</p>
-                    <p><strong>Vopsit Balayage/Hightlights:</strong> 800-1000 lei</p>
-                    <p>Include consultanță, manoperă, spălat, tratament, tonner, coafat</p>
-                    <p><strong>Nuanțat post-colorare:</strong> 100 lei</p>
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Inghinal parțial">
+                            Inghinal parțial
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Inghinal parțial">
+                        <p>30 lei - 30 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Mustată/Barbă/Perciuni">
+                            Mustată/Barbă/Perciuni
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Mustată/Barbă/Perciuni">
+                        <p>10 lei - 10 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Brațe">
+                            Brațe
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Brațe">
+                        <p>35 lei - 15 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Axilă epilat">
+                            Axilă epilat
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Axilă epilat">
+                        <p>20 lei - 10 min</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Cosmetică</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Pensat formă">
+                            Pensat formă
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Pensat formă">
+                        <p>50 lei - 30 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Pensat curățare">
+                            Pensat curățare
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Pensat curățare">
+                        <p>40 lei - 30 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Vopsit gene">
+                            Vopsit gene
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Vopsit gene">
+                        <p>20 lei - 10 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Vopsit sprâncene">
+                            Vopsit sprâncene
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Vopsit sprâncene">
+                        <p>20 lei - 10 min</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Masaj</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Masaj terapeutic parțial">
+                            Masaj terapeutic parțial
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Masaj terapeutic parțial">
+                        <p>90 lei - 30 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Masaj relaxare">
+                            Masaj relaxare
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Masaj relaxare">
+                        <p>100 lei - 50 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Masaj anticelulitic">
+                            Masaj anticelulitic
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Masaj anticelulitic">
+                        <p>120 lei - 40 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Masaj facial & capilar">
+                            Masaj facial & capilar
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Masaj facial & capilar">
+                        <p>60 lei - 30 min</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Abonamente Masaj</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="10 ședințe masaj terapeutic">
+                            10 ședințe masaj terapeutic
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="10 ședințe masaj terapeutic">
+                        <p>820 lei</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="10 ședințe masaj anticelulitic">
+                            10 ședințe masaj anticelulitic
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="10 ședințe masaj anticelulitic">
+                        <p>1080 lei</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="10 ședințe masaj relaxare">
+                            10 ședințe masaj relaxare
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="10 ședințe masaj relaxare">
+                        <p>920 lei</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Tratamente Faciale</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Clasic de curățare">
+                            Clasic de curățare
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Clasic de curățare">
+                        <p>190 lei - 90 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="OxyGenera de bază">
+                            OxyGenera de bază
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="OxyGenera de bază">
+                        <p>200 lei - 60 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="OxyGenera complet">
+                            OxyGenera complet
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="OxyGenera complet">
+                        <p>280 lei - 90 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Anti-Aging OxyGenera">
+                            Anti-Aging OxyGenera
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Anti-Aging OxyGenera">
+                        <p>De la 300 lei - 120 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="OxyGenera (3 terapii)">
+                            OxyGenera (3 terapii)
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="OxyGenera (3 terapii)">
+                        <p>240 lei - 75 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Masaj facial">
+                            Masaj facial
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Masaj facial">
+                        <p>140 lei - 45 min</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Tratamente Păr & Scalp</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Tratament restructurant Nashi Filler Therapy">
+                            Tratament restructurant Nashi Filler Therapy
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Tratament restructurant Nashi Filler Therapy">
+                        <p>150 lei - 2h</p>
+                        <p>Restructurează fibra capilară în 3 pași: hidratează, repară și compactează</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Tratament laminare Milkshake Insta Light">
+                            Tratament laminare Milkshake Insta Light
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Tratament laminare Milkshake Insta Light">
+                        <p>180 lei - 2h</p>
+                        <p>Îmbracă părul într-o peliculă proctectoare și îi oferă efect de oglindă</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Tratament hidratare Morphosis Ultimate Care">
+                            Tratament hidratare Morphosis Ultimate Care
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Tratament hidratare Morphosis Ultimate Care">
+                        <p>200 lei - 2h</p>
+                        <p>Hidratează intensiv, disciplinează părul și oferă efect de glosare, pentru redarea strălucirii. Potrivit pentru părul tern și lipsit de vitalitate</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Pachete Tratament</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Pachet Nashi Filler + Ikonic Lucera + Tuns & Coafat">
+                            Pachet Nashi Filler + Ikonic Lucera + Tuns & Coafat
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Pachet Nashi Filler + Ikonic Lucera + Tuns & Coafat">
+                        <p>220 lei - 2h 30 min</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Pachet laminare Milkshake + Tuns & Coafat">
+                            Pachet laminare Milkshake + Tuns & Coafat
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Pachet laminare Milkshake + Tuns & Coafat">
+                        <p>270 lei - 2h 30 min</p>
+                    </div>
+
+                    <h2 class="text-xl font-semibold text-pink-black mb-4">Vopsit Balayage</h2>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Vopsit rădăcină 1 tub">
+                            Vopsit rădăcină 1 tub
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Vopsit rădăcină 1 tub">
+                        <p>300 lei</p>
+                        <p>Include consultanță, manoperă, spălat, masaj</p>
+                        <p>Adaos 50 lei pentru fiecare tub în plus</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Vopsit Balayage/Hightlights">
+                            Vopsit Balayage/Hightlights
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Vopsit Balayage/Hightlights">
+                        <p>800-1000 lei</p>
+                        <p>Include consultanță, manoperă, spălat, tratament, tonner, coafat</p>
+                    </div>
+
+                    <p>
+                        <strong class="service-name text-pink-500 cursor-pointer" data-id="Nuanțat post-colorare">
+                            Nuanțat post-colorare
+                        </strong>
+                    </p>
+                    <div class="service-details hidden transition-all duration-300 ease-in-out" id="Nuanțat post-colorare">
+                        <p>100 lei</p>
+                    </div>
                 </div>
             </div>
         </div>
@@ -248,6 +826,22 @@
             <span>Copyright ©2024 Karisma</span>
         </div>
     </div>
+
+    <script>
+        document.addEventListener("DOMContentLoaded", () => {
+            const serviceNames = document.querySelectorAll(".service-name");
+
+            serviceNames.forEach(service => {
+                service.addEventListener("click", () => {
+                    const id = service.getAttribute("data-id");
+                    const details = document.getElementById(id);
+
+                    details.classList.toggle("hidden");
+                    details.classList.toggle("block");
+                });
+            });
+        });
+    </script>
 
 </body>
 
