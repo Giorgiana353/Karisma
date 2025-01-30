@@ -10,8 +10,10 @@ services:
      CHOKIDAR_INTERVAL: 100
     ports:
      - "5173:5173"
+     - "4173:4173"
     expose:
      - "5173"
+     - "4173"
     volumes:
      - .:/app
      # exclude
